@@ -1,3 +1,7 @@
+###########################
+# Empty binfile creator   #
+# Made by E.Daemen        #
+###########################
 
 while True:
   Size = input("Please enter size of bin file (MB):")
