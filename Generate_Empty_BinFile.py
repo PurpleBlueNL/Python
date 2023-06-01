@@ -16,7 +16,7 @@ while True:
       except ValueError:
         print("Input is not a number!")
      
-FileName = str(num + ".bin")
+FileName = str(Size + ".bin")
 with open(FileName, "wb") as binfile:
   binfile.write(b"x\00" * int(Size) * 1024 * 1024)
   print("File generated!")
